@@ -95,7 +95,8 @@
 			</button>
 
 			{#if role === 'admin'}
-				<a
+			<!-- AI 对话游乐场 -->
+				<!-- <a
 					class="flex rounded-md py-2 px-3 w-full hover:bg-gray-50 dark:hover:bg-gray-800 transition"
 					href="/playground"
 					on:click={() => {
@@ -123,7 +124,7 @@
 						</svg>
 					</div>
 					<div class=" self-center truncate">{$i18n.t('Playground')}</div>
-				</a>
+				</a> -->
 
 				<a
 					class="flex rounded-md py-2 px-3 w-full hover:bg-gray-50 dark:hover:bg-gray-800 transition"

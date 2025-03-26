@@ -830,8 +830,8 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="mb-3">
+			<!-- 管理员面板中设置的文档中的集成设置 -->
+			<!-- <div class="mb-3">
 				<div class=" mb-2.5 text-base font-medium">{$i18n.t('Integration')}</div>
 
 				<hr class=" border-gray-100 dark:border-gray-850 my-2" />
@@ -849,7 +849,7 @@
 						<Switch bind:state={enableOneDriveIntegration} />
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="mb-3">
 				<div class=" mb-2.5 text-base font-medium">{$i18n.t('Danger Zone')}</div>

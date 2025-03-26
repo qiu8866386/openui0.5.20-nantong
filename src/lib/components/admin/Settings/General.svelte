@@ -217,7 +217,8 @@
 
 					<div class=" space-y-3">
 						<div class="mt-2 space-y-2 pr-1.5">
-							<div class="flex justify-between items-center text-sm">
+							<!-- 管理员面板中设置的通用的LDAP -->
+							<!-- <div class="flex justify-between items-center text-sm">
 								<div class="  font-medium">{$i18n.t('LDAP')}</div>
 
 								<div class="mt-1">
@@ -228,7 +229,7 @@
 										}}
 									/>
 								</div>
-							</div>
+							</div> -->
 
 							{#if ENABLE_LDAP}
 								<div class="flex flex-col gap-1">
@@ -428,19 +429,19 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="mb-3">
+				<!-- 管理员面板中设置的通用的 -->
+				<!-- <div class="mb-3">
 					<div class=" mb-2.5 text-base font-medium">{$i18n.t('Features')}</div>
 
 					<hr class=" border-gray-100 dark:border-gray-850 my-2" />
 
-					<!-- <div class="mb-2.5 flex w-full items-center justify-between pr-2">
+					<div class="mb-2.5 flex w-full items-center justify-between pr-2">
 						<div class=" self-center text-xs font-medium">
 							{$i18n.t('Enable Community Sharing')}
 						</div>
 
 						<Switch bind:state={adminConfig.ENABLE_COMMUNITY_SHARING} />
-					</div> -->
+					</div>
 
 					<div class="mb-2.5 flex w-full items-center justify-between pr-2">
 						<div class=" self-center text-xs font-medium">{$i18n.t('Enable Message Rating')}</div>
@@ -491,7 +492,7 @@
 							/>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		{/if}
 	</div>

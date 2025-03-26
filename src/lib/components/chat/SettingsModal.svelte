@@ -123,26 +123,28 @@
 				'alwaysonwebsearch'
 			]
 		},
-		{
-			id: 'connections',
-			title: 'Connections',
-			keywords: []
-		},
-		{
-			id: 'personalization',
-			title: 'Personalization',
-			keywords: [
-				'personalization',
-				'memory',
-				'personalize',
-				'preferences',
-				'profile',
-				'personalsettings',
-				'customsettings',
-				'userpreferences',
-				'accountpreferences'
-			]
-		},
+		// 用户设置中的外部连接
+		// {
+		// 	id: 'connections',
+		// 	title: 'Connections',
+		// 	keywords: []
+		// },
+		// 用户设置中的个性化
+		// {
+		// 	id: 'personalization',
+		// 	title: 'Personalization',
+		// 	keywords: [
+		// 		'personalization',
+		// 		'memory',
+		// 		'personalize',
+		// 		'preferences',
+		// 		'profile',
+		// 		'personalsettings',
+		// 		'customsettings',
+		// 		'userpreferences',
+		// 		'accountpreferences'
+		// 	]
+		// },
 		{
 			id: 'audio',
 			title: 'Audio',

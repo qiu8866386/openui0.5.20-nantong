@@ -44,6 +44,7 @@
 		id="admin-settings-tabs-container"
 		class="tabs flex flex-row overflow-x-auto gap-2.5 max-w-full lg:gap-1 lg:flex-col lg:flex-none lg:w-40 dark:text-gray-200 text-sm font-medium text-left scrollbar-none"
 	>
+		<!-- 管理员面板中设置的常规设置 -->
 		<button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 lg:flex-none flex text-right transition {selectedTab ===
 			'general'
@@ -69,7 +70,7 @@
 			</div>
 			<div class=" self-center">{$i18n.t('General')}</div>
 		</button>
-
+		<!-- 管理员面板中设置的外部连接 -->
 		<button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'connections'
@@ -93,7 +94,7 @@
 			</div>
 			<div class=" self-center">{$i18n.t('Connections')}</div>
 		</button>
-
+		<!-- 管理员面板中设置的模型 -->
 		<button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'models'
@@ -119,8 +120,8 @@
 			</div>
 			<div class=" self-center">{$i18n.t('Models')}</div>
 		</button>
-
-		<button
+		<!-- 管理员面板中设置的竞技场评估 -->
+		<!-- <button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'evaluations'
 				? ''
@@ -133,8 +134,8 @@
 				<DocumentChartBar />
 			</div>
 			<div class=" self-center">{$i18n.t('Evaluations')}</div>
-		</button>
-
+		</button> -->
+		<!-- 管理员面板中设置的文档 -->
 		<button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'documents'
@@ -164,8 +165,8 @@
 			</div>
 			<div class=" self-center">{$i18n.t('Documents')}</div>
 		</button>
-
-		<button
+		<!-- 管理员面板中设置的联网搜索 -->
+		<!-- <button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'web'
 				? ''
@@ -187,9 +188,9 @@
 				</svg>
 			</div>
 			<div class=" self-center">{$i18n.t('Web Search')}</div>
-		</button>
-
-		<button
+		</button> -->
+		<!-- 管理员面板中设置的代码执行 -->
+		<!-- <button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'code-execution'
 				? ''
@@ -213,8 +214,8 @@
 				</svg>
 			</div>
 			<div class=" self-center">{$i18n.t('Code Execution')}</div>
-		</button>
-
+		</button> -->
+		<!-- 管理员面板中设置的界面设置 -->
 		<button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'interface'
@@ -240,8 +241,8 @@
 			</div>
 			<div class=" self-center">{$i18n.t('Interface')}</div>
 		</button>
-
-		<button
+		<!-- 管理员面板中设置的语音设置 -->
+		<!-- <button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'audio'
 				? ''
@@ -266,9 +267,9 @@
 				</svg>
 			</div>
 			<div class=" self-center">{$i18n.t('Audio')}</div>
-		</button>
-
-		<button
+		</button> -->
+		<!-- 管理员面板中设置的图片设置 -->
+		<!-- <button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'images'
 				? ''
@@ -292,9 +293,9 @@
 				</svg>
 			</div>
 			<div class=" self-center">{$i18n.t('Images')}</div>
-		</button>
-
-		<button
+		</button> -->
+		<!-- 管理员面板中设置的Pipeline设置 -->
+		<!-- <button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'pipelines'
 				? ''
@@ -322,9 +323,9 @@
 				</svg>
 			</div>
 			<div class=" self-center">{$i18n.t('Pipelines')}</div>
-		</button>
-
-		<button
+		</button> -->
+		<!-- 管理员面板中设置的数据库 -->
+		<!-- <button
 			class="px-0.5 py-1 min-w-fit rounded-lg flex-1 md:flex-none flex text-right transition {selectedTab ===
 			'db'
 				? ''
@@ -350,7 +351,7 @@
 				</svg>
 			</div>
 			<div class=" self-center">{$i18n.t('Database')}</div>
-		</button>
+		</button> -->
 	</div>
 
 	<div class="flex-1 mt-3 lg:mt-0 overflow-y-scroll pr-1 scrollbar-hidden">

@@ -1127,7 +1127,8 @@
 
 								{#if !readOnly}
 									{#if !$temporaryChatEnabled && ($config?.features.enable_message_rating ?? true)}
-										<Tooltip content={$i18n.t('Good Response')} placement="bottom">
+									<!-- 点赞 -->
+										<!-- <Tooltip content={$i18n.t('Good Response')} placement="bottom">
 											<button
 												class="{isLastMessage
 													? 'visible'
@@ -1161,9 +1162,9 @@
 													/>
 												</svg>
 											</button>
-										</Tooltip>
-
-										<Tooltip content={$i18n.t('Bad Response')} placement="bottom">
+										</Tooltip> -->
+										<!-- 踩 -->
+										<!-- <Tooltip content={$i18n.t('Bad Response')} placement="bottom">
 											<button
 												class="{isLastMessage
 													? 'visible'
@@ -1197,7 +1198,7 @@
 													/>
 												</svg>
 											</button>
-										</Tooltip>
+										</Tooltip> -->
 									{/if}
 
 									{#if isLastMessage}
